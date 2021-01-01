@@ -47,8 +47,8 @@ const getQuote = async () => {
         // hide loader and show quote
         hideLoading();
     } catch (error) {
-        getQuote();
-        // console.log(error);
+        // getQuote();
+        console.log('There is an Error occourd and we are working on to fix it ... please click on the New Quote button')
     }
 }
 
